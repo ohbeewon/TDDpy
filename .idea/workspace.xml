@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/superlists/lists/tests.py" afterPath="$PROJECT_DIR$/superlists/lists/tests.py" />
       <change beforePath="$PROJECT_DIR$/superlists/lists/views.py" afterPath="$PROJECT_DIR$/superlists/lists/views.py" />
-      <change beforePath="$PROJECT_DIR$/superlists/superlists/urls.py" afterPath="$PROJECT_DIR$/superlists/superlists/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superlists/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="345">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
               </folding>
@@ -43,9 +42,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/superlists/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+              <folding>
+                <element signature="e#25#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/functional_tests.py" />
         <option value="$PROJECT_DIR$/superlists/functional_tests.py" />
-        <option value="$PROJECT_DIR$/superlists/lists/tests.py" />
         <option value="$PROJECT_DIR$/superlists/superlists/urls.py" />
+        <option value="$PROJECT_DIR$/superlists/lists/tests.py" />
         <option value="$PROJECT_DIR$/superlists/lists/views.py" />
       </list>
     </option>
@@ -155,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Twisted Trial in tests.py">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="functional_tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,6 +193,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/superlists/lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TDDpy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/superlists/lists/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Twisted Trial in tests.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,16 +225,18 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/superlists/lists/tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.functional_tests" />
       <item index="1" class="java.lang.String" itemvalue="Python.functional_tests (1)" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial in tests.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tests" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in tests.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.functional_tests (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.functional_tests" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in tests.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.functional_tests (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.functional_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -254,17 +275,26 @@
       <option name="project" value="LOCAL" />
       <updated>1519712246430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit1">
+      <created>1519712934735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519712934735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Twisted_Trial_in_tests_py - 2018.02.26 at 22h 21m 55s.xml">
       <configuration name="Twisted Trial in tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Twisted_Trial_in_tests_py - 2018.02.26 at 22h 33m 29s.xml">
+      <configuration name="Twisted Trial in tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1075" y="0" width="784" height="1049" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24901186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -317,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="345">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="e#1#33#0" expanded="true" />
           </folding>
@@ -337,9 +367,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
