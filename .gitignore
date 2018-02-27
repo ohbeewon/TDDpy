@@ -1,0 +1,5 @@
+db.sqlite3
+geckodriver.log
+*.xml
+*.pyc
+__pycahce__
