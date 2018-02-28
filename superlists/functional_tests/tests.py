@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from django.test import LiveServerTestCase
 import unittest
 import time
 
@@ -42,10 +43,6 @@ class NewVisitorTest(unittest.TestCase):
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertIn('1: Buy peacock feathers', [row.text for row in rows], "found: %s" % table.text)
-        self.assertIn('2: use peacock feathers to make a fly',
-                      [row.text for row in rows])
-
 
 
         self.fail('Finish the test!')
