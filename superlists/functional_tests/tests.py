@@ -5,7 +5,6 @@ import unittest
 import time
 
 
-
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
@@ -28,9 +27,14 @@ class NewVisitorTest(unittest.TestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertEqual(inputbox.get_attribute('placeholder'),
                          'Enter a to-do item')
-        inputbox.send_keys('1: Buy peacock feathers')
+        inputbox.send_keys('Buy peacock feathers')
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
+
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+
+        # self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows))
 
         self.check_for_row_in_list_table('1: Buy peacock feathers')
 
@@ -41,8 +45,7 @@ class NewVisitorTest(unittest.TestCase):
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
-        table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')
+
 
 
         self.fail('Finish the test!')
